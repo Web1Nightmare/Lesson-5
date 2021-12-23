@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border-style: none;
+    text-decoration: none;
+    color: #000;
+    font-family: lato;
+
+}
+.header-section {
+    background-color: #F9F7E8;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    height: 621px;
+}
+.container {
+    max-width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.header-section__logo {
+    display: flex;
+    flex-direction: row;
+    margin: 24px 58px 24px 0;
+}
+.section__logo-item {
+    font-size: 32px;
+    line-height: 40px;
+    font-family:courgette;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px #000000;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+.section__logo-item:hover{
+    color: #62BFAD;
+}
+.section__logo-item:first-child{
+    color: #62BFAD;
+}
+.section__logo-item:first-child:hover{
+    color: #000000;
+}
+.header-section__menu {
+    justify-content: flex-start;
+}
+.header-section__menu-item {
+    margin-left: 21px;
+    border-bottom: 2px solid transparent;
+    transition: border 1s;
+}
+.header-section__menu-item:hover{
+    border-bottom: 2px solid gray;
+}
+
+.hero-section {
+    background-color: #D52047;
+    margin: 0 auto;
+
+}
+.hero-section-title {
+    width: 738px;
+    height: 116px;
+    margin: 198px auto 172px auto;
+    font-family: Limelight;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.about-section {
+    background-color: #EFF8F6;
+}
+.about-section__title {
+    color: #D52047;
+    padding: 95px 0 40px 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+.about-section__content {
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+
+}
+.about-section__description {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+.about-section__description-subtitle {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    font-style: normal;
+}
+.about-section__description-text {
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.features-section-content{
+    display: flex;
+}
+.features-section__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #D52047;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.features-section__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.features-section__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:24px;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px ;
+    margin-bottom: 80px;
+}
+.features-section__item > div{
+    padding-bottom: 24px;
+}
+.features-section__item + .features-section__item {
+    margin-left: 72px;
+}
+
+.features-section__link-text{
+    border-bottom: 1px solid transparent;
+    transition: border 2s;
+}
+.features-section__link-text:hover{
+    border-bottom: 1px solid black;
+    
+}
+.footer-section {
+
+
+    background-color: #F9F7E8;
+}
+.footer-about__section {
+    margin-top: 32px;
+    opacity: 0.3;
+
+}
+.icon-section {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.fab + .fab{
+    margin-left: 25px;
+}
+
+.footer-section__content{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0 auto;
+}
+.footer-about__info{
+    position: relative;
+}
+
+.footer-about__info::after{
+    content: " ";
+    border-bottom: 1px solid #000000;
+    display: flex;
+    position: absolute;
+    top: 18px;
+    right: 0px;
+    width: 96px;
+    height: 4px;
+}
+.asd + .asd{
+    margin-left: 16px;
+}
+.fab{
+    transition: color 0.5s;
+
+}
+.fab:hover{
+    color: #D52047;
+}
